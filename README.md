@@ -1,4 +1,4 @@
-# TSA_EE4SSS
+# TSA4EESSS
 Time-Series Analysis Approach for Improving Energy Efficiency of Fixed-Route Vessel in Short-Sea Shipping
 Several approaches have been developed for improving the ship energy efficiency, thereby reducing operating costs and ensuring compliance with climate change mitigation regulations. Many of these approaches will heavily depend on measured data from onboard IoT devices, including operational and environmental information, as well as external data sources for more navigational data.
 In a prior publication. we have addressed the challenges of data representation and energy modeling in short-sea shipping (SSS), by proposing a data-driven modeling approach of energy efficiency, which combines and aggregates data from multiple sources and seamlessly integrates explainable artificial intelligence (XAI) to attain clear insights about the energy efficiency for a vessel in SSS.
