@@ -1,0 +1,32 @@
+# Requirements file for TSA4EESSS Project
+# Generated for reproducibility based on code analysis.
+# Target Python Version: 3.9.7
+
+# --- Core Data Science Libraries ---
+numpy==1.23.5          # Fundamental package for numerical computation
+pandas==1.5.3          # Data manipulation and analysis (DataFrames)
+scikit-learn==1.2.2    # Machine Learning (Preprocessing, KNN, Model Selection)
+
+# --- Plotting Libraries ---
+matplotlib==3.7.1      # Data visualization
+seaborn==0.12.2         # Enhanced data visualization based on Matplotlib
+
+# --- Time Series Specific Libraries ---
+tslearn==0.6.0         # Time series analysis (DTW)
+hmmlearn==0.3.0        # Hidden Markov Models
+
+# --- Deep Learning Library (for LSTM) ---
+# Note: Ensure compatibility with your CPU/GPU setup (tensorflow vs tensorflow-gpu)
+# tensorflow 2.10 was one of the last versions officially supporting GPU on Native Windows.
+# Use tensorflow-cpu if you don't need/have GPU support configured.
+tensorflow==2.10.0     # Deep Learning framework (includes Keras for LSTM)
+# keras==2.10.0         # Keras is typically bundled with tensorflow>=2.0
+
+# --- Jupyter Environment (for running notebooks) ---
+# Optional, but recommended for interacting with the .ipynb files
+notebook==6.5.4        # Classic Jupyter Notebook interface
+# or use jupyterlab
+# jupyterlab==3.6.3
+
+# --- Other Utilities (often implicitly installed, but good to specify) ---
+ipykernel            # Required for Jupyter notebooks to run Python kernels
